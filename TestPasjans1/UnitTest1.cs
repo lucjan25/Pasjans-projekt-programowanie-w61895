@@ -46,8 +46,8 @@ namespace TestPasjans1
             Karta ktr = new Karta(kr, rk);
 
 
-            Assert.AreEqual(true, ktb.Barwa(), "Błąd przy zakrytej karcie");
-            Assert.AreEqual(false, ktr.Barwa(), "Błąd przy odkrytej karcie");
+            Assert.AreEqual(true, ktb.Barwa(), "Błąd przy czarnej karcie");
+            Assert.AreEqual(false, ktr.Barwa(), "Błąd przy czerwonej karcie");
         }
     }
 }
